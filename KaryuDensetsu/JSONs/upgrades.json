@@ -1,0 +1,49 @@
+{
+    "upgrades": [
+        {
+            "id": 1,
+            "name": "Finesse",
+            "description": " Em vez de força bruta, você usa elegância e destreza para executar o ataque. Só pode ser aplicado a técnicas que causam dano e calculam esse dano com Força. O dano passa a ser calculado com Agilidade."
+        },
+        {
+            "id": 2,
+            "name": "Invencibilidade",
+            "description": "Sua postura durante a realização da técnica deixa brechas mínimas. Um oponente que tente retaliar contra essa técnica o faz com desvantagem."
+        },
+        {
+            "id": 3,
+            "name": "Poder",
+            "description": " Você aprendeu a aplicar mais força na técnica. Some +2 ou sua Aura ao dano causado, o que for maior. Esse upgrade só pode ser aplicado a técnicas que causem dano e tenham uma jogada de ataque."
+        },
+        {
+            "id": 4,
+            "name": "Precisão",
+            "description": "Você é especialmente preciso quando ataca com essa técnica. Você ataca com vantagem quando a usa. Só pode ser aplicado a técnicas de ataque."
+        },
+        {
+            "id": 5,
+            "name": "Preparação",
+            "description": "Você pode usar ações extras para preparar melhor essa técnica, mirando ou concentrando energia. Para cada ação extra que usar, ganha um dado de vantagem quando usá-la. O máximo de ações extras que você pode usar para preparar a manobra é igual à sua Aura +1."
+        },
+        {
+            "id": 6,
+            "name": "Quebra de Guarda",
+            "description": "Você aprendeu a usar essa técnica para derrubar as defesas do seu alvo. A Defesa Total de Bloqueio normal não funciona contra essa técnica. Técnicas de Bloqueio ainda podem ser usadas, mas sofrem desvantagem."
+        },
+        {
+            "id": 7,
+            "name": "Ressonância",
+            "description": "Você refinou ao máximo a ressonância do nagen dessa técnica, diminuindo seu custo em 1 ponto (até o mínimo de 1)."
+        },
+        {
+            "id": 8,
+            "name": "Retribuição",
+            "description": "Você se especializou em usar essa técnica para retaliar. Se usada para retaliação, a jogada recebe vantagem. Só pode ser aplicado a técnicas de ataque."
+        },
+        {
+            "id": 9,
+            "name": "Versatilidade",
+            "description": "Você pode alterar a afinidade elemental da técnica. Esse upgrade funciona de duas formas diferentes. Para manobras que possam ter afinidade com uma variedade de elementos (como Disparo Elemental), você pode escolher o elemento no momento da utilização. Para manobras com apenas um elemento, você escolhe a nova afinidade elemental da técnica no momento da aplicação do upgrade."
+        }
+    ]
+}

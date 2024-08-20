@@ -1,0 +1,118 @@
+{
+    "trunfos":[
+        {
+            "id": 1,
+            "name": "Aceito",
+            "descricao": "Sua aura está em forte sintonia com uma das forças elementais primordiais do universo. Escolha entre Água, Ar, Fogo ou Terra. Você tem grande facilidade para usar as técnicas deste elemento, gastando um ponto de nagen a menos para usá-las (podendo chegar a zero) e recebendo um dado de vantagem em testes para usá-las. Você não pode aprender técnicas de outros elementos. Você é bastante fraco contra o elemento oposto. Caso seja atingido por esse elemento, você perde dois pontos de Vigor em vez de 1. Se for derrotado por um golpe que usa o elemento oposto, você precisa gastar 2 dados de sincronização para invocar o poder da esperança (veja Capítulo 7).",
+            "requisitos": ""
+        },
+        {
+            "id": 2,
+            "name": "Amigos Importantes",
+            "descricao": "Um dos coadjuvantes com quem você tem Laços possui grande poder e influência. Talvez seja um senador, um alto executivo ou uma estrela de entretenimento. Seu amigo fornece informação de bom grado e apenas citar seu nome pode abrir portas na situação certa. Porém, caso peça mais que isso do seu amigo, ele pode ou não ajudar, dependendo da sua interação com ele. Mesmo que ajude, sempre que você pede ajuda diretamente a Tensão aumenta em um.",
+            "requisitos": ""
+        },
+        {
+            "id": 3,
+            "name": "Agente",
+            "descricao": "Você trabalha para uma organização poderosa, como as Indústrias Tolwyn ou o Círculo do Dragão. Você tem um equipamento a mais, transporte e é certamente bem remunerado também. Quando você pede recursos adicionais, teste Presença contra a pilha de tensão; em caso de sucesso, você consegue o que for requisitado.",
+            "requisitos": ""
+        },
+        {
+            "id": 4,
+            "name": "Arsenal",
+            "descricao": "Você tem acesso a uma enorme variedade de armas e equipamentos. Talvez seja muito rico, talvez você mesmo tenha feito os itens, talvez você seja agente de alguma organização poderosa. Independente do motivo, você começa seu personagem com dois equipamentos (personagens normais só podem começar com uma arma), que podem ser: Armas, Artefatos ou  implantes adicionais no caso de Ciborgues. Você também tem um item indeterminado adicional. (veja Equipamento, capítulo 6)",
+            "requisitos": ""
+        },
+        {
+            "id": 5,
+            "name": "Caminho da Perfeição",
+            "descricao": "Você se especializou em uma Técnica de ataque acima de todas as outras. Você a refinou e poliu até o limite, tornando-se incrivelmente habilidoso em seu uso. Quando você usa essa Técnica, pode iniciar um splash se tiver uma margem de 4 ou mais em relação ao oponente. O dano da Técnica também é aumentado em um ponto e você tem vantagem nas jogadas de ataque com ela. Por f im, você pode ter dois upgrades nessa Técnica, em vez de um. Toda essa dedicação torna mais difícil aprender novas Técnicas. Você escolhe somente cinco Técnicas durante a criação do personagem.",
+            "requisitos": ""
+        },
+        {
+            "id": 6,
+            "name": "Ciborgue",
+            "descricao": "A tecnologia de próteses cibernéticas é difundida pelo mundo todo, mas você teve acesso a procedimentos experimentais que não se limitam em substituir o corpo, chegando a aprimorá-lo. Ciborgues têm o esqueleto reforçado por metal e chips integrados com o sistema nervoso para controlar seus implantes. Estes são naturais do Ciborgue e, devido a essas alterações, ciborgues têm +3 no Limiar de Proteção, +3 na Barra de Vigor e uma caixa adicional de ferido. Além disso, ciborgues recebem vantagem em todos os testes para usar dispositivos eletrônicos.  Infelizmente, ser um ciborgue não é só alegria. Os implantes prejudicam o fluxo do nagen e a sincronização com o ambiente. Isso dificulta o uso de focus, com um redutor de -1 no Limiar de Canalização e começando uma cena com um dado de sincronização a menos, mas não é a pior parte. Caso chegue a Limiar de Canalização 0, o ciborgue perde a conexão natural que as pessoas têm umas com as outras através de suas auras, parecendo distante e alienígena, sofrendo desvantagem em todas as jogadas de Presença. Um ciborgue ferido pode ser tratado com as ocupações Médico ou Engenheiro, mas caso seja derrotado somente alguém treinado em ambas as ocupações pode ajudá-lo. Implantes Adicionais (pág. 112) podem ser adquiridos apenas através dos trunfos Arsenal e Agente ou com avanços. ",
+            "requisitos": ""
+        },
+        {
+            "id": 7,
+            "name": "Espírito Guardião",
+            "descricao": "Um espírito poderoso, com aura igual à sua aura +2, atua como seu guardião. Você pode ter uma relação amigável com o espírito ou não, mas ele o protege do perigo. Ele não está sempre ao seu lado, mas surge para ajudar quando você fica ferido. Ele pode tanto agir separadamente quanto entrar no seu corpo, somando a força dele à sua. Nesse caso, o espírito remove a condição ferido que o invocou e lhe concede um dado de vantagem em todos os testes até o final da cena, mas não pode agir como um espírito normal. Perceba que sem o trunfo Médium sua comunicação com o espírito é confusa e inconstante! Veja mais sobre espíritos no capítulo 4 (pág. 40).",
+            "requisitos": ""
+        },
+        {
+            "id": 8,
+            "name": "Estilo Secreto",
+            "descricao": "Você foi treinado em um dos mais poderosos, misteriosos e restritos estilos de luta do mundo. Essas artes antigas e exóticas guardam grandes poderes e segredos, mas justamente por isso podem chamar atenção indesejada. Estilos secretos têm dois ougi em vez de um; você também ganha um ponto adicional para somar em uma das habilidades do seu estilo.",
+            "requisitos": ""
+        },
+        {
+            "id": 9,
+            "name": "Hanyo",
+            "descricao": " Yokai é o tipo de shen mais parecido com os humanos. Eles são humanóides com uma ou outra característica estranha, como olhos de cores incomuns, pupilas verticais ou escamas na pele. Como um hanyo (半妖), você tem sangue de yokai. Normalmente um dos pais é yokai e o outro humano, mas às vezes o yokai é um ancestral distante. Devido ao seu sangue de yokai, você é capaz de manipular seu próprio corpo com focus de formas que humanos dificilmente poderiam. Você pode escolher uma técnica shintai além das 6 normais (veja Shintai, pág. 76). Você não pode aprender outro shintai, a não ser que se torne um yokai completo de alguma forma. ",
+            "requisitos": ""
+        },
+        {
+            "id": 10,
+            "name": "Incansável",
+            "descricao": "Você nunca desiste. Você consegue ignorar ferimentos que deixariam pessoas normais incapacitadas. Mesmo coberto de sangue e hematomas, você pode se levantar e continuar lutando. Aumente sua Barra de Vigor em 2 pontos. Você pode usar o poder da esperança (veja pág. 125) duas vezes na mesma cena.",
+            "requisitos": "Vontade 4"
+        },
+        {
+            "id": 11,
+            "name": "Jasq",
+            "descricao": "Você é hospedeiro de um parasita do Outro Mundo, uma criatura conhecida como jasq. Ele muitas vezes se parece com uma lesma grande, reluzente e prateada. Ele passa o tempo todo grudado à sua pele, normalmente no mesmo local de um ferimento ou ao longo da coluna vertebral. Pessoas com pouca afinidade espiritual às vezes não os veem. O parasita consome sua energia constantemente. No começo de cada cena, você perde um ponto de Vigor. Toda perda de Vigor, devido a exceder o Limiar de Canalização, também é aumentada em um ponto. Porém, o parasita constantemente refina essa energia absorvida. Você começa toda cena com um dado de sincronização adicional. Caso você também seja um aceito, o jasq permite que você aprenda e use técnicas de elementos diferentes do seu, mas sempre que o faz você perde um ponto de Vigor (além de quaisquer perdas por exceder o Limiar de Canalização).",
+            "requisitos": ""
+        },
+        {
+            "id": 12,
+            "name": "Lobo Solitário",
+            "descricao": " Diferente da maior parte das pessoas, você genuinamente trabalha melhor sozinho. Sempre que começa uma cena em que você é o único protagonista, você recebe um dado de sincronização adicional. Mesmo quando está junto de outras pessoas, você age melhor sozinho. Em uma cena em que esteja acompanhado, você pode recusar ajuda ou resmungar abertamente que trabalha melhor sozinho. Se o fizer, pode trocar um dado em uma jogada por um d10. Você só pode fazer isso uma vez por cena. Sua tendência à solidão se reflete diretamente nos seus relacionamentos. Você seleciona apenas dois Laços durante a criação do personagem e precisa de dois avanços para adquirir um novo Laço, em vez de um. ",
+            "requisitos": ""
+        },
+        {
+            "id": 13,
+            "name": "Médium",
+            "descricao": "Você é capaz de entender os espíritos, mesmo aqueles que estão ocultos. Você pode percebê-los, entender se estão dóceis ou agressivos e conversar com os mesmos. Em vez de desvantagem em testes de Presença com espíritos, você tem vantagem para lidar com os mesmos. Você também sabe um ritual de invocação (veja pág. 100) para um tipo específico de espírito e pode aprender outros normalmente.",
+            "requisitos": ""
+        },
+        {
+            "id": 14,
+            "name": "Mestre de Armas",
+            "descricao": "Você é um especialista no uso de armas. Seus ataques com armas causam dano +1. Escolha uma característica de arma (veja pág. 109, Armas). Sempre que você usar uma arma que tiver essa característica e tiver vantagem no ataque, pode trocar um dado por um d10.",
+            "requisitos": ""
+        },
+        {
+            "id": 15,
+            "name": "Prodígio",
+            "descricao": "Você tem um talento inato em um de seus atributos básicos. Aumente o valor do atributo para 6.",
+            "requisitos": "Valor 5 no atributo"
+        },
+        {
+            "id": 16,
+            "name": "Rede de Contatos",
+            "descricao": "Você conhece pessoas em vários lugares diferentes e consegue obter muitas informações importantes. Você escolhe quatro Laços em vez de três na criação do personagem. Todos os coadjuvantes com quem você tem Laços são boas fontes de informação em suas respectivas áreas de influência. Dificilmente seus contatos podem oferecer mais do que informação, mas a informação que eles oferecem é confiável e eles são acessíveis. Quando você pede informação para seus contatos, dificilmente eles conseguem uma resposta na mesma cena.",
+            "requisitos": ""
+        },
+        {
+            "id": 17,
+            "name": "Tocado",
+            "descricao": "VVocê tem mais afinidade com um dos elementos primordiais do universo, mas ainda é capaz de usar outros. Escolha entre Água, Ar, Fogo ou Terra. Você pode utilizar com facilidade técnicas do elemento escolhido, gastando 1 nagen a menos com eles (até zero). Você não pode aprender técnicas do elemento oposto. Caso seja atingido pelo elemento oposto, você perde 2 pontos de Vigor em vez de um.",
+            "requisitos": ""
+        },
+        {
+            "id": 18,
+            "name": "Vitória Magnética",
+            "descricao": "Você tem uma forte capacidade de se relacionar com as pessoas que derrota. Pode ser que você converse com os punhos ou com palavras, mas depois de derrotar alguém em combate, você pode gastar um dado de sincronização para formar um Laço com essa pessoa. Se era só um coadjuvante, você pode dar um nome para ele e inventar algum passado. Repare que a pessoa não necessariamente gosta de você, ela só vai estar por perto. Você pode conseguir um novo aliado ou um novo inimigo, depende de como vai tratar quem você derrota!",
+            "requisitos": ""
+        },
+        {
+            "id": 19,
+            "name": "Volta por Cima",
+            "descricao": "Quando o mundo joga seu pior contra você, é aí que você pode jogar o seu melhor contra o mundo. Você não se dá por vencido facilmente e consegue tirar forças de onde não tem para enfrentar qualquer desafio. Quanto pior é a situação, mais forte você fica. Quando está ferido, você pode escolher somar o valor de tensão nas suas jogadas, em vez de uma perícia ou estilo de luta.",
+            "requisitos": ""
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "Caminhos":[
+        {
+            "id": 1,
+            "name": "Amizade",
+            "descricao": "Seus amigos são sua maior preocupação. Você faz de tudo por eles.",
+            "evento 1": "Se arricar para ajudar um amigo",
+            "evento 2": "Conversar com um amigo.",
+            "evento 3": "Falar sobre a importância da amizade.",
+            "reviraVolta": "Decidir se virar sozinho."
+        },
+        {
+            "id": 2,
+            "name": "Amnésia",
+            "descricao": "O seu passado é uma folha em branco. Você não sabe de onde veio, como chegou, onde está, quem são seus amigos ou seus inimigos. É possível que nem se lembre do próprio nome.",
+            "evento 1": "Encontrar alguém que conhece você, mas que você não reconhece.",
+            "evento 2": "Tentar descobrir mais sobre o seu passado.",
+            "evento 3": "Não saber responder uma pergunta sobre o seu passado.",
+            "reviraVolta": "Descobrir o seu passado."
+        },
+        {
+            "id": 3,
+            "name": "Aventura",
+            "descricao": "Você está cansado de rotina, da vida normal, de se conformar. Gosta de correr riscos e fazer coisas imprevisíveis.",
+            "evento 1": "Agir sem pensar.",
+            "evento 2": "Correr perigo sem motivo.",
+            "evento 3": "Reclamar sobre uma situação chata.",
+            "reviraVolta": "Parar de se aventurar."
+        },
+        {
+            "id": 4,
+            "name": "Cautela",
+            "descricao": "Você só quer salvar a própria pele e se manter fora de encrenca. Evita o perigo como um gato foge de água fria.",
+            "evento 1": "Evitar participar de uma cena por causa do risco envolvido.",
+            "evento 2": "Aconselhar outra pessoa a não correr riscos.",
+            "evento 3": "Planejar cuidadosamente antes de agir.",
+            "reviraVolta": "Enfrentar o perigo de frente."
+        },
+        {
+            "id": 5,
+            "name": "Crença",
+            "descricao": "Você acredita com todas as forças em alguma coisa. Pode ser uma religião organizada (como catolicismo), um ideal abstrato (como liberdade) ou qualquer outra coisa. Você provavelmente vai estabelecer um Laço (veja a seguir) com o objeto de crença.",
+            "evento 1": "Explicar seus ideais para outra pessoa.",
+            "evento 2": "Entrar em confusão por causa dos seus ideais.",
+            "evento 3": "Acatar a decisão de uma autoridade relacionada à sua crença.",
+            "reviraVolta": "Abandonar sua crença."
+        },
+        {
+            "id": 6,
+            "name": "Ganância",
+            "descricao": "Você tem como objetivo adquirir mais riqueza, mais poder e/ou mais influência que os outros. Deseja obter vantagem a qualquer custo.",
+            "evento 1": "Encontrar uma forma de tirar vantagem de uma situação ruim. ",
+            "evento 2": "Se arriscar por riqueza/poder/influência.",
+            "evento 3": "Prejudicar uma pessoa em nome da sua ganância.",
+            "reviraVolta": "Abrir mão de sua riqueza/poder/influência."
+        },
+        {
+            "id": 7,
+            "name": "Heroísmo",
+            "descricao": "Você tem uma tendência a ajudar os outros, se preocupando com o bem-estar alheio e exercitando o altruísmo sempre que possível.",
+            "evento 1": "Ajudar um desconhecido.",
+            "evento 2": "Sofrer ferimentos ou contratempos por ajudar alguém.",
+            "evento 3": "Atender a um pedido de ajuda.",
+            "reviraVolta": "Parar de se importar com os outros."
+        },
+        {
+            "id": 8,
+            "name": "Independência",
+            "descricao": "Você se vira sozinho e não precisa da ajuda de ninuém.",
+            "evento 1": "Recusar ajuda.",
+            "evento 2": "Se prejudicar por ter recusado ajuda.",
+            "evento 3": "Conseguir fazer algo difícil sozinho.",
+            "reviraVolta": "Passar a aceitar ajuda."
+        },
+        {
+            "id": 9,
+            "name": "Missão",
+            "descricao": "Você tem um objetivo específico que o protagonista precisa concluir acima de qualquer outra coisa.",
+            "evento 1": "Explicar sua missão e a importância dela.",
+            "evento 2": "Procurar informações relacionadas à sua missão. ",
+            "evento 3": "Correr riscos para facilitar o progresso da sua missão.",
+            "reviraVolta": "Abandonar a missão."
+        },
+        {
+            "id": 10,
+            "name": "Orgulho",
+            "descricao": "Você é extremamente orgulhoso e se vê como superior aos demais.",
+            "evento 1": "Explicar em detalhes sua superioridade.",
+            "evento 2": "Racionalizar como alguém tão superior pode falhar.",
+            "evento 3": "Ser bem-sucedido em uma tarefa importante.",
+            "reviraVolta": "Perceber que não é melhor que os outros."
+        },
+        {
+            "id": 11,
+            "name": "Proteção",
+            "descricao": "Existe alguém que você precisa defender e proteger a todo o custo. Pode ser um irmão, um amante, outro protagonista, um filho ou até mesmo uma pessoa que nem vai com a sua cara! Você provavelmente vai estabelecer um Laço (veja mais adiante) com o seu protegido.",
+            "evento 1": "Conversar com o seu protegido.",
+            "evento 2": "Mudar seu curso de ação por causa do seu protegido.",
+            "evento 3": "Salvar seu protegido do perigo.",
+            "reviraVolta": "Perceber que essa pessoa não precisa da sua proteção."
+        },
+        {
+            "id": 12,
+            "name": "Risadas",
+            "descricao": "Você não leva nada a sério, acha que todos ao seu redor são idiotas ou ambos. Seja com sarcasmo, trocadilhos ou piadas, você é definido. Ou, pelo menos, por um sorriso de canto de boca.",
+            "evento 1": "Fazer uma piada, trocadilho ou comentário sarcástico.",
+            "evento 2": "Importunar outro personagem através do humor.",
+            "evento 3": "Fazer outro jogador (não personagem, jogador!) rir.",
+            "reviraVolta": "Abandonar o escudo do humor e passar a encarar a vida mais seriamente."
+        },
+        {
+            "id": 13,
+            "name": "Romance",
+            "descricao": "Você se preocupa principalmente com o romance. Talvez você só queira dar uns amassos por aí, talvez você esteja procurando sua cara metade. O que é importa é que você procura a companhia de outras pessoas e curte uma pegação. ",
+            "evento 1": "Falar abertamente sobre a aparência de outro personagem.",
+            "evento 2": "Flertar com outro personagem.",
+            "evento 3": "Se encrencar por causa dos seus flertes.",
+            "reviraVolta": "Sossegar o facho."
+        },
+        {
+            "id": 14,
+            "name": "Ruptura",
+            "descricao": "Nascido em uma antiga e tradicional linhagem, treinado em um monastério milenar ou último herdeiro de um estilo de artes marciais, você quer se afastar daquilo que o criou. Você pode discordar do que aprendeu, pode querer irritar seus mentores, considerar seu passado imoral ou só ser um rebeldezinho mimado.",
+            "evento 1": "Explicar porque seus mentores estão errados.",
+            "evento 2": "Usar a reputação de seus mentores a seu favor.",
+            "evento 3": "Entrar em confusão por causa dos ideais/práticas dos seus mentores.",
+            "reviraVolta": "Voltar ao ninho."
+        },
+        {
+            "id": 15,
+            "name": "Sanguinolência",
+            "descricao": "Você se deleita com violência. Você tira prazer do combate, ao causar e sofrer dor; você preza a batalha acima de tudo, mesmo que não admita. ",
+            "evento 1": "Falar abertamente sobre sua sede de sangue.",
+            "evento 2": "Entrar em combate.",
+            "evento 3": "Espancar alguém brutalmente.",
+            "reviraVolta": "Desistir de lutar."
+        },
+        {
+            "id": 16,
+            "name": "Vingança",
+            "descricao": "Alguma coisa muito ruim aconteceu no seu passado. Agora você quer encontrar quem pisou no seu calo e dar o troco.",
+            "evento 1": "Deixar de fazer alguma coisa para se concentrar na sua vingança.",
+            "evento 2": "Prejudicar o alvo da sua vingança.",
+            "evento 3": "Explicar os motivos por trás da sua vingança.",
+            "reviraVolta": "Desistir da vingança."
+        }
+    ]
+}

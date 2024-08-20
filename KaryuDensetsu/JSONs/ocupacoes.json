@@ -1,0 +1,54 @@
+{
+    "ocupacoes":[
+        {
+            "id": 1,
+            "name": "Artista",
+            "descricao": "O Artista cria, inspira e diverte. Todas as artes são cobertas por essa ocupação. Isso não quer dizer que todo Artista Mestre é um artista multimídia; além do conhecimento geral sobre artes, um Artista Mestre aplica os padrões e sensibilidades da sua arte às demais, conseguindo resultados semelhantes. Você pode usar a ocupação de Artista em situações em que sua arte possa impressionar as pessoas, quando estiver conversando com outro entusiasta das artes, para saber informações relacionadas a arte, para perceber detalhes em obras de arte ou situações similares. Especializações de Artista normalmente são modalidades específicas de arte (balé, pintura a óleo, poesia abstrata, hardcore melódico, etc). "
+        },
+        {
+            "id": 2,
+            "name": "Atleta",
+            "descricao": "O Atleta salta, nada e age. A prática de todos os esportes e de atividades físicas, em geral, são cobertas por essa ocupação. Quando você quiser saltar, correr, nadar, escalar ou praticar esportes em geral, essa é a ocupação a qual você vai recorrer. Você pode usar a ocupação de Atleta para diversas ações físicas, além de responder perguntas sobre regras de esportes ou reconhecer esportistas famosos. Especializações de Atleta normalmente são modalidades específicas de esporte (basquete, futebol, parkour, natação, etc)."
+        },
+        {
+            "id": 3,
+            "name": "Cientista",
+            "descricao": "O Cientista pesquisa, descobre e questiona. Com essa ocupação você tem conhecimento de ciências formais. Você pode ser um pesquisador reconhecido ou um curioso autodidata, mas de um jeito ou de outro você entende como as coisas funcionam e tem vontade de entender melhor. A ocupação Cientista também inclui conhecimento sobre a sociedade científica e como navegá-la. Especializações de Cientista normalmente são áreas específicas de estudo (anatomia humana, linguística aplicada, física quântica, biologia marinha, etc)."
+        },
+        {
+            "id": 4,
+            "name": "Diplomata",
+            "descricao": "O Diplomata entende o que pessoas sentem, sabe o que as pessoas desejam e fala o que as pessoas querem ouvir. É a ocupação para fazer com que as pessoas gostem de você e também ajuda a não ser enganado. Infelizmente, nem todos que entendem como as pessoas se sentem respeitam esses sentimentos, então é possível ser um Diplomata Mestre e ser um completo babaca.Especializações de Diplomata normalmente são protocolos específicos para determinado ambiente ou situação (mesa de bar, reunião de negócios, baladinha top, discussão online, etc)."
+        },
+        {
+            "id": 5,
+            "name": "Engenheiro",
+            "descricao": "O Engenheiro constrói, repara e projeta. Você sabe lidar com máquinas, seja montando-as ou consertando-as. Não necessariamente sabe inventar coisas completamente novas (talvez se também for Cientista), mas pode projetar soluções dentro do que conhece. Use a ocupação Engenheiro se você imagina seu personagem com um macacão sujo e uma caixa de ferramentas. Para lidar com ciborgues feridos, você pode usar tanto essa ocupação quanto Médico. Para ciborgues derrotados, você precisa das duas."
+        },
+        {
+            "id": 6,
+            "name": "Médico",
+            "descricao": " O Médico examina, trata e cura. Você sabe diagnosticar doenças, prescrever remédios, realizar primeiros socorros e cuidar de pessoas feridas. Apesar do nome, ela se aplica a outros tipos de profissionais de saúde, como enfermeiros. Médico Use a ocupação Médico se você imagina seu personagem cuidando dos outros. Especializações de Médico são campos específicos de medicina. "
+        },
+        {
+            "id": 7,
+            "name": "Místico",
+            "descricao": "O Místico estuda o que não pode ser compreendido, fala com aqueles que não têm voz e manipula forças que não entende completamente. A ocupação do Místico engloba conhecimento não científ ico: xamanismo, religião, métodos de clarividência, etc.; seu campo de estudo poderia ser chamado de Conhecimento Bizarro Aplicado. O que você sabe não é necessariamente comprovado (não é ciência, afinal de contas), mas alguém em algum lugar acredita nisso – e muitas vezes funciona. Use a ocupação Místico para se comunicar com espíritos, fazer rituais e interpretar o fluxo do nagen. Especializações de Místico normalmente são campos específicos de misticismo (runas futhark, tarot, astrologia, feng shui, etc)."
+        },
+        {
+            "id": 8,
+            "name": "Piloto",
+            "descricao": "O Piloto dirige, pilota e navega. Se você não for pelo menos um Piloto Aprendiz, você não sabe dirigir. Você ainda pode tentar dirigir mesmo sem pontos na ocupação; definitivamente não vai ser bonito e vai exigir algum teste, mas você até pode conseguir ir do ponto A ao ponto B sem matar ninguém em situações normais. Use a ocupação Piloto para participar de corridas, perseguições, consertos quebragalho em veículos ou para navegar o trânsito caótico de uma grande metrópole. Piloto também representa o seu conhecimento sobre as ruas de uma cidade com a qual esteja acostumado e com leis de trânsito. Pode até fazer uns consertos simples em um veículo com o qual esteja acostumado. Especializações de Piloto normalmente são veículos específicos (avião bimotor, carro de passeio, lancha, moto, etc)."
+        },
+        {
+            "id": 9,
+            "name": "Místico",
+            "descricao": "O Trapaceiro engana, enrola e se esconde. Com essa ocupação você sabe diversas formas de passar os outros para trás: desde uma mentirinha inocente para seu chefe não saber quem foi que realmente acabou com o café, até aplicar golpes complexos envolvendo grandes empresas e truques de mágica nas ruas da cidade. Neste tipo de ocupação você também conhece os cantos obscuros da cidade, onde o tráfico acontece, os melhores lugares para comprar denadorita não registrada e como encontrar outros trapaceiros feito você. Mesmo que você não faça parte deste mercado, você tem os meios e contatos para encontrá-lo. Se você está fazendo alguma coisa pouco honesta, ainda que com motivos nobres, essa provavelmente é a ocupação para você. Use a ocupação Trapaceiro para qualquer tipo de malandragem que queira realizar, contar uma história enganadora, achar um grupo de contrabandistas de shen, trapacear em um jogo de pôquer ou até entrar escondido em um prédio das indústrias Tolwyn."
+        },
+        {
+            "id": 10,
+            "name": "Vigilante",
+            "descricao": "O Vigilante observa, investiga e protege. Com essa ocupação você se especializa em entender o que está acontecendo ao seu redor, prever o que pode acontecer a partir de determinados fatos ou servir de batedor para o grupo, indo na frente e averiguando o terreno e a situação. Suas habilidades para proteger outras pessoas também são notáveis, prevendo os lugares mais perigosos e se colocando à frente do protegido. Encontrar uma informação em uma agitada praça central, verificar as chances de uma luta observando o território inimigo ou mesmo identificar indícios de um crime em uma casa revirada estão entre as habilidades inatas daqueles que têm este tipo de ocupação. Use a ocupação Vigilante para encontrar detalhes ocultos, reconhecer padrões, proteger itens e pessoas e encontrar pistas."
+        }
+    ]   
+}

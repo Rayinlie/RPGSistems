@@ -1,0 +1,616 @@
+{
+    "tecnicas": [
+        {
+            "id": 1,
+            "nome": "Abre Alas",
+            "requisitos": "Agilidade 3",
+            "descricao": "O yuza aplica essa técnica como uma ação extra. Caso acerte, ele não causa dano nenhum, mas seu próximo ataque contra aquele alvo é feito com vantagem.",
+            "efeitoOugi": "Além da vantagem, o próximo ataque tem seu dano aumentado em 1 ponto",
+            "efeitoSincronizacao": "O próximo ataque recebe duas vantagens.",
+            "custoNagen": 2
+        },
+        {
+            "id": 2,
+            "nome": "Adaptação Anfíbia",
+            "requisitos": "Aura 1, Força 3",
+            "descricao": "Após ativada, essa técnica dura uma cena. Durante esse período, o yuza tem vantagem em jogadas para se mover embaixo d’água e pode respirar normalmente mesmo se estiver submerso.",
+            "efeitoOugi": "Você tem vantagem em jogadas quando submerso.",
+            "efeitoSincronizacao": "Ative como uma ação extra.",
+            "custoNagen": 4
+        },
+        {
+            "id": 3,
+            "nome": "Amplificação Sensorial",
+            "requisitos": "Aura 1",
+            "descricao": "O yuza canaliza nagen para estimular seu olfato e audição. Isso concede vantagem em todos os testes para perceber, identificar ou rastrear através desses sentidos até o final da cena. ",
+            "efeitoOugi": "Você pode ativar essa técnica como uma ação extra.",
+            "efeitoSincronizacao": "Some seu Instinto no seu Limiar de Defesa até o começo do seu próximo turno.",
+            "custoNagen": 4
+        },
+        {
+            "id": 4,
+            "nome": "Arma Espiritual",
+            "requisitos": "Aura 1",
+            "descricao": "Canalizando sua aura através de um objeto mundano, o yuza pode transformá-lo em uma arma mortal. Escolha uma característica da lista de armas; você sabe imbuir objetos mundanos dessa característica e usá-los como se fossem armas.",
+            "efeitoOugi": "Você pode usar essa técnica como uma ação extra.",
+            "efeitoSincronizacao": "A arma recebe uma característica adicional.",
+            "custoNagen": 5
+        },
+        {
+            "id": 5,
+            "nome": "Ataque Duplo",
+            "requisitos": "Aura 3",
+            "descricao": "Após acertar um Golpe, o yuza pode desferir um segundo ataque usando o outro lado do corpo, como uma ação extra. O dano é igual à Força ou Agilidade, o que for maior.",
+            "efeitoOugi": "Você pode usar Ataque Duplo após errar um Golpe.",
+            "efeitoSincronizacao": "Aome sua Aura no dano.",
+            "custoNagen": 3
+        },
+        {
+            "id": 6,
+            "nome": "Ataque Trespassante",
+            "requisitos": "Agilidade 4, Shunpo",
+            "descricao": "O personagem pode atacar um alvo próximo com esse ataque, causando dano igual a Força ou Agilidade (o que for maior) + 3. Após atacar, o yuza se move novamente, parando próximo ao alvo.",
+            "efeitoOugi": "Você pode atacar alvos distantes com essa técnica.",
+            "efeitoSincronizacao": "Some sua Aura no dano. ",
+            "custoNagen": 3
+        },
+        {
+            "id": 7,
+            "nome": "Aura de Batalha",
+            "requisitos": "Aura 1",
+            "descricao": "Enquanto tiver sua Aura de Batalha ativa, o yuza soma sua Aura como um bônus ao seu Limiar de Proteção. Quando for atingido por um ataque que o deixaria ferido, ele não fica ferido, mas sua aura se dissipa.",
+            "efeitoOugi": "Você soma +1 no seu Limiar de Proteção com a aura ativa.",
+            "efeitoSincronizacao": "Ative a técnica como uma ação extra e ignore os aumentos de custo por número de ativações.",
+            "custoNagen": 5
+        },
+        {
+            "id": 8,
+            "nome": "Beijo Letal",
+            "requisitos": "Regeneração",
+            "descricao": "O yuza agarra o alvo e suga uma porção de sua energia vital pela boca aberta. Faça uma disputa de Vontade entre o yuza e o alvo. Caso o yuza vença, o alvo fica ferido e o yuza deixa de ficar ferido (se estava ferido).",
+            "efeitoOugi": "Você tem vantagem na disputa de Vontade.",
+            "efeitoSincronizacao": "Você drena Vigor do alvo numa quantidade igual à margem pela qual ganhar a disputa. O alvo perde essa quantidade de Vigor e você recupera a mesma quantidade.",
+            "custoNagen": 6
+        },
+        {
+            "id": 9,
+            "nome": "Bloqueio Agressivo",
+            "requisitos": "Força 3",
+            "descricao": "Como uma reação após ser atingido com um Golpe ou Combo desarmado, o yuza causa ao atacante dano igual à sua Força.",
+            "efeitoOugi": "Como uma reação após ser atingido com um Golpe ou Combo desarmado, o yuza causa ao atacante dano igual à sua Força.",
+            "efeitoSincronizacao": "Some sua Aura ao dano causado.",
+            "custoNagen": 2
+        },
+        {
+            "id": 10,
+            "nome": "Caminho Harmonioso",
+            "requisitos": "",
+            "descricao": "Com essa técnica, o yuza pode retaliar contra qualquer tipo de ataque, exceto projéteis. Um alvo atingido não sofre dano, mas fica desequilibrado e sofre desvantagem em todas as jogadas até o final do próximo turno dele",
+            "efeitoOugi": "Faça a jogada de ataque com vantagem.",
+            "efeitoSincronizacao": "O alvo perde uma ação extra em seu próximo turno",
+            "custoNagen": 2
+        },
+        {
+            "id": 11,
+            "nome": "Ciclone Humano",
+            "requisitos": "Agilidade 3",
+            "descricao": "Faça um ataque e compare o resultado com o Limiar de Defesa de todos os alvos. Se estiver enfrentando um grupo de coadjuvantes, essa técnica pode iniciar um splash de ataque total mesmo num acerto normal. O dano é igual à Força ou Agilidade (o que for maior).",
+            "efeitoOugi": "Você não gasta sincronização para ativar um splash de ataque total com essa técnica, desde que use a mesma técnica para o segundo ataque.",
+            "efeitoSincronizacao": "Some sua Aura ao dano.",
+            "custoNagen": 2
+        },
+        {
+            "id": 12,
+            "nome": "Cura",
+            "requisitos": "Médico 2, Regeneração",
+            "descricao": " Com uma ação, jogue Razão (Médico) contra a tensão. Com um sucesso, você restaura Aura x3 pontos de Vigor do alvo. Com uma falha, você não consegue ajudar e só pode tentar de novo na próxima cena.",
+            "efeitoOugi": "Você pode usar essa técnica como uma ação extra.",
+            "efeitoSincronizacao": "Remova a condição ferido como parte da ação.",
+            "custoNagen": 5
+        },
+        {
+            "id": 13,
+            "nome": "Defesa Circular",
+            "requisitos": "",
+            "descricao": "A Defesa Circular deve ser ativada como uma ação. Ao fazer isso, o yuza ganha um bônus em seu Limiares de Defesa e Proteção igual à sua Aura, além de usar quaisquer Defesas Totais com vantagem. Os efeitos duram até o final do próximo turno do yuza.",
+            "efeitoOugi": "Ao usar essa técnica, você recebe uma ação extra adicional que só pode ser usada para Defesa Total.",
+            "efeitoSincronizacao": "Os efeitos duram até o final da cena.",
+            "custoNagen": 4
+        },
+        {
+            "id": 14,
+            "nome": "Defesa do Deserto",
+            "requisitos": "Onda de Choque, Sentido Sísmico",
+            "descricao": "Como uma reação, substitua o Limiar de Defesa do yuza por uma jogada de Vontade, somando o bônus de Evasão. Se a técnica for usada em um terreno arenoso, a jogada de Vontade é feita com vantagem.",
+            "efeitoOugi": "Uma vez por rodada, você pode usar essa técnica mesmo se não tiver nenhuma ação extra sobrando.",
+            "efeitoSincronizacao": "Some sua Aura como um bônus na jogada de Vontade.",
+            "custoNagen": 3
+        },
+        {
+            "id": 15,
+            "nome": "Descarga Espiritual",
+            "requisitos": "Aura 1",
+            "descricao": " Após acertar um alvo com um agarrão, o yuza pode usar essa técnica como uma ação extra, liberando uma explosão de nagen no alvo. Se o yuza tem afinidade com algum elemento, essa técnica assume o mesmo elemento. O dano causado é igual à Vontade.",
+            "efeitoOugi": "Se você usar um agarrão como retaliação, pode usar essa técnica como parte da mesma reação.",
+            "efeitoSincronizacao": "Some sua Aura ao dano. ",
+            "custoNagen": 3 
+        },
+        {
+            "id": 16,
+            "nome": "Disparo Elemental",
+            "requisitos": "Aura 1",
+            "descricao": "No Disparo Elemental, o yuza separa um pedaço da sua aura, canaliza nele a energia de um elemento e o lança como um projétil. É comum que o disparo assuma a forma de uma esfera, mas pode ser qualquer outra coisa, como uma lança ou uma miniatura do seu avatar. Escolha um elemento quando aprender essa Técnica, essa será a afinidade dela. O dano é igual à Vontade + Aura + 2 e atinge alvos distantes.",
+            "efeitoOugi": "Se você errar o ataque, pode gastar um dado de sincronização para guiá-lo de volta contra o alvo, fazendo a jogada de ataque novamente.",
+            "efeitoSincronizacao": "Em vez de um disparo único, você lança seu nagen na forma de um projétil contínuo, um verdadeiro canhão. Você pode aumentar o dano em 1 para cada nagen extra usado. O único limite é a sua Barra de Vigor.",
+            "custoNagen": 4
+        },
+        {
+            "id": 17,
+            "nome": "Dragão Nascente",
+            "requisitos": "Força 3, Agilidade 3",
+            "descricao": "A técnica aproveita a força do salto para aumentar o impacto do golpe, geralmente um soco ou chute. O dano é igual a Força +Aura + 2. O ímpeto ascendente torna impossível retaliar contra essa técnica.",
+            "efeitoOugi": "Você tem vantagem quando usa essa técnica para retaliar.",
+            "efeitoSincronizacao": "Some sua Aura ao dano causado. ",
+            "custoNagen": 3
+        },
+        {
+            "id": 18,
+            "nome": "Duplicar Aparência",
+            "requisitos": "Artista 2, Presença 3, Henshin",
+            "descricao": " Essa é a refinação da transformação básica, permitindo assumir outras formas humanoides. Para copiar um alvo, o yuza precisa estudá-lo com atenção durante pelo menos um minuto, sem fazer mais nada. A transformação também muda sua voz se ele ouvir a pessoa falando durante pelo menos um minuto. Também é possível improvisar formas completamente inventadas (mas ainda humanóides), mas é preciso jogar Presença (Artista) contra a Tensão para evitar que pareça estranho e artificial. A transformação dura uma cena.",
+            "efeitoOugi": "A transformação dura até você decidir trocar de forma.",
+            "efeitoSincronizacao": "Você tem vantagem em qualquer jogada para manter o disfarce.",
+            "custoNagen": 6
+        },
+        {
+            "id": 19,
+            "nome": "Escudo Espiritual",
+            "requisitos": "Aura 1",
+            "descricao": "Faça uma jogada de Vontade (Bloqueio) e use como o Limiar de Proteção até o final de seu próximo turno. Essa técnica também pode ser usada como uma Defesa Total, protegendo contra um ataque que acabou de acertar o yuza, mas nesse caso custa 1 nagen adicional e apenas soma Vontade no LP.",
+            "efeitoOugi": "Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica como Defesa Total uma vez por rodada.",
+            "efeitoSincronizacao": "Some sua Aura ao Limiar de Proteção.",
+            "custoNagen": 4
+        },
+        {
+            "id": 20,
+            "nome": "Estrela Cadente",
+            "requisitos": "",
+            "descricao": "O lutador salta para o alto e então desce com tudo sobre o seu oponente, usando o próprio corpo como míssil. A maior parte dos yuzas ataca o alvo com um soco ou chute, mas cabeçadas ou ombradas não são incomuns. O ataque pode atingir um alvo próximo e causa dano igual à Força+2.",
+            "efeitoOugi": "Você pode usar essa técnica como uma ação extra se acertou o oponente com Dragão Nascente primeiro.",
+            "efeitoSincronizacao": "Some sua Aura no dano. ",
+            "custoNagen": 2
+        },
+        {
+            "id": 21,
+            "nome": "Esquiva Supersônica",
+            "requisitos": "Agilidade 5, Instinto 4, Shunpo, Zanshin",
+            "descricao": "Essa técnica só pode ser usada como Defesa Total. Ela desvia automaticamente de qualquer ataque realizado por um atacante com Aura menor que a do yuza. Para atacantes com Aura igual ou maior que a do yuza, faça uma jogada de Agilidade (Evasão) para a defesa, com uma vantagem para cada ponto de Aura.",
+            "efeitoOugi": "Você tem uma vantagem adicional na jogada de defesa.",
+            "efeitoSincronizacao": "Você deixa uma miragem de velocidade para trás após se esquivar, confundindo o atacante. Se atacá-lo em seu próximo turno, você tem vantagem.",
+            "custoNagen": 4
+        },
+        {
+            "id": 22,
+            "nome": "Excelência Verdadeira",
+            "requisitos": "Qualquer Ocupação 3",
+            "descricao": "Sempre que usa sua especialização, você pode usar essa técnica para trocar um dos dados jogados por um d10. Excelência Verdadeira não requer ações, sendo parte do uso da habilidade. Muitos usuários dessa técnica nem sabem que estão usando focus.",
+            "efeitoOugi": "Você recebe uma segunda especialização na ocupação.",
+            "efeitoSincronizacao": "Jogue um d10 adicional.",
+            "custoNagen": 2
+        },
+        {
+            "id": 23,
+            "nome": "Finalização",
+            "requisitos": "Agilidade 3, Força 3",
+            "descricao": "Você prepara um golpe decisivo, concentrando todo seu nagen em um único ataque devastador. O dano é igual a Força x2, mas o ataque é feito com duas desvantagens.",
+            "efeitoOugi": "O ataque é feito com apenas uma desvantagem.",
+            "efeitoSincronizacao": "Após atingir um oponente com um Combo, você pode usar Finalização como uma ação bônus.",
+            "custoNagen": 4
+        },
+        {
+            "id": 24,
+            "nome": "Finta Desconcertante",
+            "requisitos": "Presença 3, Trapaceiro 1",
+            "descricao": "Você engana seu oponente de alguma forma, posicionando-o para acertar com outro golpe. Pode ser um drible de corpo, um chute do lado da cabeça para acertar na nuca com o calcanhar, fingir que vai atacar com uma mão mas usar a outra ou qualquer outra forma de enganação. Usar essa técnica é uma ação extra: teste Presença contra Instinto do alvo. Caso tenha sucesso, o próximo ataque é feito com vantagem e você pode somar sua ocupação Trapaceiro na jogada de ataque em vez do bônus de estilo de luta.",
+            "efeitoOugi": "Você tem vantagem no teste de Presença para usar a técnica.",
+            "efeitoSincronizacao": "Você tem duas vantagens no ataque feito após o uso da técnica.",
+            "custoNagen": 2
+        },
+        {
+            "id": 25,
+            "nome": "Flor de Ferro",
+            "requisitos": "Pontos de Pressão, Instinto 3",
+            "descricao": "O nome da técnica não vem do método de ataque, mas sim do efeito que o ataque costuma ter em seus alvos, fazendo florescer uma torrente de sangue. O dano causado é igual à Agilidade ou Instinto (o que for maior) do yuza + sua Aura. Se a técnica Pontos de Pressão for usada depois, o yuza tem vantagem em sua jogada de Razão.",
+            "efeitoOugi": "Aumente o dano em 1 ponto.",
+            "efeitoSincronizacao": "Você pode usar Pontos de Pressão como parte da ação do ataque, sem precisar usar uma ação extra.",
+            "custoNagen": 2
+        },
+        {
+            "id": 26,
+            "nome": "Fogo de Raposa",
+            "requisitos": "",
+            "descricao": "Essa técnica concede ao yuza vantagem em jogadas para se esconder ou passar despercebido de alguma forma. Em combate, isso faz com que qualquer ataque contra o yuza sofra desvantagem. Esse efeito do Fogo de Raposa dura até o começo do seu próximo turno. O yuza também pode fechar um pequeno objeto em seu punho e envolver a mão em fogo de raposa. Quando abrir a mão, o objeto terá outra aparência (mantendo as mesmas dimensões) até o final da cena.",
+            "efeitoOugi": "Você pode usar essa técnica como uma ação extra.",
+            "efeitoSincronizacao": "Você tem duas vantagens para se esconder ou passar despercebido. Ataques contra você sofrem duas desvantagens.",
+            "custoNagen": 4
+        },
+        {
+            "id": 27,
+            "nome": "Fulgor Flamejante",
+            "requisitos": "Disparo Elemental",
+            "descricao": "Para aqueles que dominam o Fulgor Flamejante, é apenas isso que elas são, porém - um truque. Concentrando todo o calor de suas auras nas mãos, o yuza é capaz de disparar um feixe laser destruidor, um projétil contínuo tão quente e concentrado que corta através de metal com facilidade. Qualquer superfície atingida pelo Fulgor é destruída. Blindagem anti-tanque ou equivalente exige pelo menos duas rodadas ininterruptas de fogo para ser penetrada. Estruturas especialmente preparadas podem resistir pela mesma quantidade de tempo ou até um pouco mais, mas nada na Terra resiste a mais que três rodadas seguidas de Fulgor Flamejante. Em combate, o dano causado é igual ao dobro da Vontade, mais Aura do yuza. Uma vítima atingida tem um item em sua posse destruído além de sofrer dano.",
+            "efeitoOugi": "Você gasta uma rodada a menos para destruir estruturas mais resistentes.",
+            "efeitoSincronizacao": "Aumente o dano em dois pontos.",
+            "custoNagen": 6
+        },
+        {
+            "id": 28,
+            "nome": "Garras Demoníacas",
+            "requisitos": "",
+            "descricao": "Alguns mon têm garras e presas semelhantes aos animais terrestres, mas as garras mais afiadas do Outro Mundo advém do focus. Shen e hanyo que dominem as Garras Demoníacas podem criar garras longas e afiadas, que funcionam como armas com a característica Letal, que causam um ponto adicional de dano. Uma vez ativadas, como uma ação extra, as garras duram até o final da cena.",
+            "efeitoOugi": "Ao custo de 3 de nagen você pode somar sua Aura no dano de qualquer golpe com as suas garras.",
+            "efeitoSincronizacao": "As garras causam um ponto adicional de dano.",
+            "custoNagen": 5
+        },
+        {
+            "id": 29,
+            "nome": "Ginga de Batalha",
+            "requisitos": "Artista 2",
+            "descricao": "Você sabe se deixar levar pelo ritmo da música, dançando enquanto luta. Use uma ação para gingar; até o final da cena você ganha vantagem em jogadas de ataque para retaliar e +1 no Limiar de Defesa. Se fizer uma jogada de ataque de retaliação sem nenhum dado de vantagem, sua ginga é desfeita e você precisa gingar de novo.",
+            "efeitoOugi": "Você pode gingar como uma ação extra.",
+            "efeitoSincronizacao": "Some sua Aura no Limiar de Defesa.",
+            "custoNagen": 4
+        },
+        {
+            "id": 30,
+            "nome": "Golpe Explosivo",
+            "requisitos": "Aura 1",
+            "descricao": "Você avança até um alvo próximo e desfere um ataque poderoso, geralmente um soco ou chute. O dano é igual à Aura + Força +2. Escolha um elemento quando aprende essa Técnica: quando você acerta o golpe, uma explosão do elemento engole o oponente. Esse golpe de investida total deixa a sua guarda aberta; qualquer tentativa de retaliação contra Golpe Explosivo é feita com vantagem.",
+            "efeitoOugi": "Caso o golpe acerte, o alvo é arremessado para a distância próxima.",
+            "efeitoSincronizacao": "Multiplique sua Aura por dois antes de somá-la ao dano causado.",
+            "custoNagen": 2
+        },
+        {
+            "id": 31,
+            "nome": "Henshin",
+            "requisitos": "",
+            "descricao": "Uma das habilidades que mais surpreendem os humanos é quando os shen assumem outra forma. Muitos se desesperam pensando nos crimes que poderiam acontecer ao acolher um youkai em suas comunidades, mas poucos são os yokai capazes de assumir a forma de outra pessoa. O que é relativamente comum é a habilidade de assumir a forma de um animal. Com esse shintai, o shen se torna capaz de se transformar em um animal, escolhido quando aprende o shintai. Na forma de animal, ele não pode falar nem usar técnicas, mas tem facilidade para tarefas relacionadas ao animal em questão, recebendo vantagem quando as realiza. Por exemplo, um shen que assuma forma de cachorro teria vantagem para farejar.",
+            "efeitoOugi": "Você pode usar suas técnicas normalmente na forma animal, adaptando-as para a nova forma. Uma cobra não pode chutar, obviamente, mas pode fazer um golpe veloz com a parte traseira.",
+            "efeitoSincronizacao": "Você assume uma forma híbrida entre humano e animal. Além das vantagens relacionadas ao animal escolhido, você se alinha melhor com o nagen ao redor. Aumente sua Aura em 1 ponto até o final da cena. Nessa forma, você pode usar todas as suas técnicas normalmente e falar.",
+            "custoNagen": 5
+        },
+        {
+            "id": 32,
+            "nome": "Infravisão",
+            "requisitos": "",
+            "descricao": "Qualquer jogada para rastrear ou localizar alguma coisa escondida (que emita calor) é feita com vantagem. Além disso, em situações de calor extremo (como nos arredores de um vulcão em erupção, uma tarde de verão no Rio de Janeiro ou uma área sob efeito da técnica Onda de Calor), a infravisão é ainda mais precisa que a visão normal, concedendo vantagem para qualquer jogada que dependa da visão. A infravisão não funciona em locais muito frios ou em criaturas de sangue frio. Ela também não permite distinguir cores ou detalhes. Depois de ativada, dura até o final da cena.",
+            "efeitoOugi": "Você pode ativar a infravisão como uma ação extra.",
+            "efeitoSincronizacao": "Qualquer situação em que a infravisão concedia vantagem passa a conceder duas vantagens.",
+            "custoNagen": 5
+        },
+        {
+            "id": 33,
+            "nome": "Impacto Trovejante",
+            "requisitos": "Aura 1",
+            "descricao": " Após atingir um alvo com um golpe ou combo, o yuza pode usar uma ação extra para soar o trovão. Dispute Vontade do yuza contra Força do alvo. Se tiver sucesso, o yuza atordoa o alvo e causa desvantagem em todas as suas jogadas em seu próximo turno.",
+            "efeitoOugi": "Você tem vantagem em sua jogada de Vontade na disputa.",
+            "efeitoSincronizacao": "A vítima sofre duas desvantagens, em vez de uma.",
+            "custoNagen": 4
+        },
+        {
+            "id": 34,
+            "nome": "Imobilização",
+            "requisitos": "",
+            "descricao": "O yuza agarra seu oponente e o prende em uma chave, segurando-o e causando bastante dor. Se acertar, faça uma disputa de Força (Atletismo) contra Força (Atletismo) do alvo. Se você vencer a disputa, o alvo não pode se afastar de você até o começo do seu próximo turno e sofre dano igual à sua Força. Caso o alvo use uma técnica que permita movimento (por exemplo, Shunpo), a disputa deve ser repetida; se você vencer, a técnica do alvo falha.",
+            "efeitoOugi": "Você ganha uma vantagem na disputa de Força.",
+            "efeitoSincronizacao": "Some sua Aura ao dano causado.",
+            "custoNagen": 2
+        },
+        {
+            "id": 35,
+            "nome": "Manto da Montanha",
+            "requisitos": "Aura 1",
+            "descricao": "Com um mero gesto do yuza, a terra se ergue para protegê-lo. Pedaços de terra e pedra brotam do solo, destruindo qualquer piso manufaturado e envolvendo o yuza em uma armadura de pedra. Até o final da cena, adicione a Vontade do yuza no seu Limiar de Proteção. Porém, o yuza faz qualquer jogada de Agilidade com desvantagem e precisa gastar uma ação extra adicional para se mover um passo de distância.",
+            "efeitoOugi": "Você não sofre desvantagem nas jogadas de Agilidade.",
+            "efeitoSincronizacao": "Some sua Aura no Limiar de Proteção.",
+            "custoNagen": 6
+        },
+        {
+            "id": 36,
+            "nome": "Mente de Metal",
+            "requisitos": "Força 4, Aura 1",
+            "descricao": " Para mover metais muito pesados, o yuza precisa se ancorar, disputando Força contra a tensão. Se o metal for mais pesado que o yuza, quaisquer resultados 2 na jogada aumentam a tensão, como se fossem resultados 1. A velocidade de atração não é muito alta, impedindo que essa habilidade seja usada como arma na maioria dos casos.",
+            "efeitoOugi": "Você pode empurrar objetos para longe de você, em vez de somente atraí-los para perto.",
+            "efeitoSincronizacao": "A velocidade de atração (ou repulsão, caso seja seu ougi) é muito alta, permitindo que seja usado como arma. Trate os itens de metal como armas, escolhendo uma característica que se adeque ao tipo de arma. Jogadas de ataque dependem do posicionamento cauteloso e são feitas com Razão. O dano é calculado com Vontade, incluindo um bônus de +1 a +3 dependendo do tamanho do objeto de metal.",
+            "custoNagen": 3
+        },
+        {
+            "id": 37,
+            "nome": "Músculos de Aço",
+            "requisitos": "",
+            "descricao": "Ao ativar essa técnica como uma ação, os músculos do shen crescem até o final da cena. Ele sofre desvantagem em todas as jogadas de Agilidade e Presença, mas tem vantagem nas jogadas de Força. Além disso, o dano de qualquer técnica baseada em Força aumenta em dois pontos.",
+            "efeitoOugi": "Você aprendeu a usar seus músculos poderosos defensivamente. Você tem vantagem para usar técnicas de Bloqueio enquanto durar o efeito.",
+            "efeitoSincronizacao": "O aumento no dano é de 3 em vez de 2.",
+            "custoNagen": 6
+        },
+        {
+            "id": 38,
+            "nome": "Olho da Mente",
+            "requisitos": "Telepatia",
+            "descricao": "O perigoso shintai do Olho da Mente é temido em todo o Outro Mundo. Ao usá-lo, o shen cria um olho falso em sua testa. Esse olho permite que ele copie as ondas cerebrais de qualquer pessoa com quem esteja conectado telepaticamente, fazendo com que o cérebro da vítima se confunda com o seu. Dessa forma, o shen pode enviar comandos mentais para a vítima, que fará o que ele desejar. Faça uma disputa de Vontade entre o shen e a vítima. Caso o shen ganhe, ele pode decidir todas as ações que a vítima realizará na próxima rodada. Quaisquer jogadas de dados realizadas pela vítima sofrem desvantagem",
+            "efeitoOugi": "As jogadas realizadas pela vítima não sofrem desvantagem.",
+            "efeitoSincronizacao": "Você assume o controle da vítima até o final da cena.",
+            "custoNagen": 5
+        },
+        {
+            "id": 39,
+            "nome": "Onda de Calor",
+            "requisitos": "Aura 1, Vontade 3",
+            "descricao": "Você emite uma onda de calor que torna qualquer ambiente fechado extremamente desconfortável. Até o final da cena, todos dentro do ambiente sofrem uma desvantagem em todas as jogadas. Personagens com afinidade com fogo não são afetados.",
+            "efeitoOugi": "Você não sofre desvantagem com a Onda de Calor, mesmo que não tenha afinidade com fogo. Se tiver, ganha um dado de vantagem em todas as ações.",
+            "efeitoSincronizacao": "Suas vítimas sofrem dois dados de desvantagem.",
+            "custoNagen": 6
+        },
+        {
+            "id": 40,
+            "nome": "Onda de Choque",
+            "requisitos": "Aura 1",
+            "descricao": "Com um violento golpe no chão, o yuza pode emitir uma onda de choque que atinge todos que estejam próximos dele. A onda de choque causa dano igual à Vontade + Aura. Contra um grupo de coadjuvantes, a Onda de Choque pode iniciar um splash de ataque decisivo mesmo num acerto normal. Um alvo atingido pela onda de choque deve disputar Agilidade com a Força do yuza. Se o yuza vencer, o alvo fica desequilibrado e sofre desvantagem na próxima jogada.",
+            "efeitoOugi": "Descarte um dado 5+ para aumentar o dano em um ponto",
+            "efeitoSincronizacao": "Aumente o dano causado em dois pontos.",
+            "custoNagen": 3
+        },
+        {
+            "id": 41,
+            "nome": "Palma Seca",
+            "requisitos": "Aura 1",
+            "descricao": "Com um toque, você pode absorver a umidade do corpo de um oponente. O que causa o ferimento não é o impacto; você só precisa encostar no oponente. A área atingida, porém, resseca conforme a umidade é arrancada. Faça sua jogada de ataque com vantagem. O dano é igual à Aura + Vontade + 2. Caso seja ferido pelo ataque, o alvo sofre uma desvantagem em sua próxima jogada.",
+            "efeitoOugi": "Descarte um dado 5+ para causar uma desvantagem na próxima ação do alvo.",
+            "efeitoSincronizacao": "Qualquer desvantagem causada pelo ataque dura até o final do próximo turno do alvo.",
+            "custoNagen": 4
+        },
+        {
+            "id": 42,
+            "nome": "Pilão Atômico",
+            "requisitos": "Força 4",
+            "descricao": "Você agarra o oponente, levanta-o do chão, vira de cabeça para baixo e o enterra no chão com violência. Machuca pacas: o dano é Força + 2. Uma vítima perde 2 pontos de Vigor em vez de 1.",
+            "efeitoOugi": "Você inclui um giro na técnica que desorienta a vítima, fazendo com que ela sofra uma desvantagem na próxima jogada.",
+            "efeitoSincronizacao": "Some sua Aura no dano.",
+            "custoNagen": 3
+        },
+        {
+            "id": 43,
+            "nome": "Pontos de Pressão",
+            "requisitos": "Aura 1, Medicina 3",
+            "descricao": "Você conhece pontos de pressão secretos capazes de destruir um alvo. Você pode usar essa técnica como uma ação extra após deixar um alvo ferido com um Golpe ou Combo desarmado. Faça um teste de Razão (Medicina) contra Vontade do alvo. Se tiver sucesso, o alvo sofre desvantagem em todas as jogadas até o final da cena. Se o alvo tiver um número de desvantagens igual ou maior ao triplo de sua Aura devido a Pontos de Pressão, você pode gastar um dado de sincronização para cada ponto de Aura do alvo e matá-lo automaticamente.",
+            "efeitoOugi": "Você pode usar essa técnica com qualquer tipo de ataque, incluindo com armas.",
+            "efeitoSincronizacao": "O alvo sofre duas desvantagens em vez de uma.",
+            "custoNagen": 6
+        },
+        {
+            "id": 44,
+            "nome": "Projeção Invisível",
+            "requisitos": "Aura 1, Trapaceiro 3",
+            "descricao": "Dentre todas as técnicas de focus, poucas são mais desleais que a Projeção Invisível. O yuza aprende a suprimir temporariamente a conexão entre suas emoções e pensamentos com a sua aura, removendo qualquer cor ou imagem dela. Dessa forma, qualquer uma de suas técnicas pode ser usada sem nenhum efeito espiritual visível. Essa técnica é usada como uma ação extra ao realizar qualquer outra técnica. O efeito da técnica é invisível. Se a técnica for um ataque, ele é feito com vantagem, e qualquer tentativa se defender contra ele é feita com desvantagem. Um yuza que tenha Zanshin consegue ver os efeitos espirituais normalmente.Como essa é uma técnica que depende de sutileza, seu custo em nagen nunca pode ser diminuído com um kiai.",
+            "efeitoOugi": "Você ganha uma vantagem adicional para ataques invisíveis.",
+            "efeitoSincronizacao": "Os efeitos são invisíveis até mesmo para Zanshin.",
+            "custoNagen": 3
+        },
+        {
+            "id": 45,
+            "nome": "Punho Gravitacional",
+            "requisitos": "Aura 1, Força 4",
+            "descricao": " A partir de uma postura sólida, o yuza absorve a energia da terra e a acumula no próprio punho. A quantidade de nagen é tamanha que o punho chega a brilhar. Essa conexão com a terra aumenta a atração gravitacional sobre o punho no momento exato do impacto, aumentando a massa do mesmo sem diminuir a velocidade, transformando um soco normal em um golpe devastador. O dano é igual à Força + Vontade + Aura, e a vítima é arremessada para a distância próxima pelo impacto.",
+            "efeitoOugi": "A vítima é arremessada para mais longe ainda, ficando distante.",
+            "efeitoSincronizacao": "Multiplique Aura por dois antes de calcular o dano.",
+            "custoNagen": 5
+        },
+        {
+            "id": 46,
+            "nome": "Quebrar Aura",
+            "requisitos": "Zanshin, Pontos de Pressão",
+            "descricao": "O yuza consegue interferir no fluxo de nagen de um alvo. Escolha um tipo de ataque (Agarrão, Combo, Golpe ou Projétil). Depois de acertar com um ataque deste tipo, o yuza pode usar uma ação extra para quebrar a aura do alvo. Dispute Vontade contra a Vontade do alvo. Em caso de sucesso do yuza, remova um dado de sincronização do alvo e encerre imediatamente qualquer técnica que ele tenha ativa. ",
+            "efeitoOugi": "Você pode remover um dado de sincronização e encerrar uma técnica ao mesmo tempo.",
+            "efeitoSincronizacao": "Se o alvo não tiver nenhum dado de sincronização e nenhuma técnica ativa, ele fica ferido.",
+            "custoNagen": 6
+        },
+        {
+            "id": 47,
+            "nome": "Queda Distante",
+            "requisitos": "",
+            "descricao": "Frequentemente um agarrão envolve usar contra os inimigos a maior arma disponível: o chão. A Queda Distante leva esse raciocínio ao extremo, não só jogando o oponente no chão, como jogando-o longe. A vítima sofre dano igual à Força, é afastada um passo de distância e sofre uma desvantagem na sua próxima jogada.",
+            "efeitoOugi": "Você tem vantagem na jogada de ataque.",
+            "efeitoSincronizacao": "A vítima é afastada 2 passos de distância.",
+            "custoNagen": 2
+        },
+        {
+            "id": 48,
+            "nome": "Ranbu",
+            "requisitos": "",
+            "descricao": "O lutador golpeia o oponente ferozmente, numa avassaladora sequência de socos e/ ou chutes. O dano dessa técnica pode ser aumentado descartando dados; cada resultado 5 ou mais descartado aumenta o dano em +1. O dano causado é igual à Força ou Agilidade, o que for maior.",
+            "efeitoOugi": "Quando você usar essa manobra como componente do Ataque Total de um splash (pág. 122), você causa dano igual à Força + Agilidade.",
+            "efeitoSincronizacao": "Some sua Aura no dano.",
+            "custoNagen": 3
+        },
+        {
+            "id": 49,
+            "nome": "Rasteira Deslizante",
+            "requisitos": "",
+            "descricao": "Deslizando rente ao chão, de pé ou agachado, o lutador atinge as pernas de um oponente próximo, desequilibrando-o; esta técnica costuma ser realizada com chutes, mas qualquer golpe nas pernas funciona. Um alvo atingido sofre dano igual à Força e se desequilibra, sofrendo desvantagem em seu próximo ataque.",
+            "efeitoOugi": "O alvo sofre duas desvantagens em seu próximo ataque.",
+            "efeitoSincronizacao": "Some sua Aura ao dano causado.",
+            "custoNagen": 2
+        },
+        {
+            "id": 50,
+            "nome": "Redirecionar",
+            "requisitos": "Agilidade 3",
+            "descricao": "Com esta técnica de defesa fluida, o yuza afasta seu oponente após bloquear, empurrando-o para longe e redirecionando o impacto. Como uma reação após ser atingido por um Agarrão, Golpe Amós do Carmo Moreira Filhoou Combo, o yuza soma sua Agilidade ao Limiar de Proteção. Se não for ferido pelo golpe, ele move o alvo um passo de distância para perto ou para longe, à sua escolha. ",
+            "efeitoOugi": "Mesmo que não tenha ações extras restando depois do seu turno, você pode usar essa técnica uma vez por rodada.",
+            "efeitoSincronizacao": "Some sua Aura no Limiar de Proteção.",
+            "custoNagen": 2
+        },
+        {
+            "id": 51,
+            "nome": "Relâmpago inevitável",
+            "requisitos": "Tempo de Tempestade",
+            "descricao": " Essa técnica só pode ser usada em um alvo que esteja atordoado pelo Tempo de Tempestade. O yuza dispara um relâmpago, normalmente para cima. O próprio relâmpago procura o alvo e o atinge como um projétil contínuo. Independente do resultado da jogada de ataque, o Relâmpago Inevitável atinge um alvo que não tenha usado uma Defesa Total ou técnica de defesa (i.e., que dependa apenas do Limiar de Defesa). Quaisquer jogadas para se defender do relâmpago são feitas com desvantagem, incluindo uma disputa de projéteis. O dano causado é igual ao dobro da Vontade do yuza, mais sua Aura. Essa técnica funciona melhor ao ar livre. Se usada em um espaço fechado, ela pode gerar consequências catastróficas – qualquer resultado 2 que não seja utilizado para o total da ação aumenta a tensão, como se fosse um resultado 1.",
+            "efeitoOugi": "Reações para se defender do relâmpago sofrem duas desvantagens.",
+            "efeitoSincronizacao": "Aumente o dano em +2.",
+            "custoNagen": 5
+        },
+        {
+            "id": 52,
+            "nome": "Regeneração",
+            "requisitos": "Aura 1, Vontade 3",
+            "descricao": "Sintonizar o nagen do corpo com a água do ambiente para se curar é uma tarefa relativamente simples com o treinamento certo. Ainda assim, parece milagroso para a maior parte das pessoas. Ao usar essa técnica, o yuza deixa de estar ferido.",
+            "efeitoOugi": "Você pode usar essa técnica como uma ação extra.",
+            "efeitoSincronizacao": "Recupere uma quantidade de pontos da sua Barra de Vigor igual à sua Aura.",
+            "custoNagen": 4
+        },
+        {
+            "id": 53,
+            "nome": "Ritual de Invocação",
+            "requisitos": "Aura 1, Médium",
+            "descricao": "Essa técnica é a principal forma de invocar espíritos (pág. 40). O yuza realiza um ritual de alguns minutos, normalmente oferecendo ao espírito algo que seria de seu agrado. O yuza determina a polaridade e a afinidade do nagen do espírito que quer invocar. Ele também pode escolher a intensidade da sua aura, mas espíritos maiores são mais exigentes. Cada ponto da Aura do espírito demanda quatro nagen do yuza. O espírito invocado fica a serviço do yuza por uma cena. Se ele foi invocado em uma cena de transição, ele ajuda na próxima cena de ação. O espírito é amigável, mas qualquer ação que faça o espírito gastar nagen requer que ele seja convencido com uma disputa de Presença contra Vontade, como uma ação extra. Se o yuza tiver um laço com o espírito ou se oferecer algo de que o espírito gosta, ele tem vantagem na jogada.",
+            "efeitoOugi": "Você é um mago mestre. Você pode usar essa técnica para criar artefatos descartáveis (pág. 111).",
+            "efeitoSincronizacao": "O espírito tem vantagem em todas as ações até o final da cena.",
+            "custoNagen": 4
+        },
+        {
+            "id": 54,
+            "nome": "Salto Duplo",
+            "requisitos": "Aura 1, Atleta 1",
+            "descricao": "É comum que filmes de Bollywood mostrem aceitos do ar voando pelos céus. Todo yuza que se preza sabe que isso é coisa de cinema, mas existem aqueles que chegam bem perto. O salto duplo acontece quando um yuza salta e, chegando no ápice do movimento, concentra nagen nos pés, fazendo uma plataforma de ar para saltar novamente. É muito prático para ultrapassar obstáculos e se mover em combate, fazendo dois passos como uma ação extra.",
+            "efeitoOugi": "Você pode usar Salto Duplo como uma Defesa Total. Jogue Agilidade (Evasão) com vantagem quando o fizer.",
+            "efeitoSincronizacao": "Você pode saltar de novo uma terceira vez, cobrindo três passos com uma ação extra e podendo alcançar locais muito altos.",
+            "custoNagen": 3
+        },
+        {
+            "id": 55,
+            "nome": "Sangue Ardente",
+            "requisitos": "Aura 1, Força 4, Vontade 4",
+            "descricao": " Calor é energia. Levando esse raciocínio ao extremo, o yuza aumenta a temperatura do próprio sangue e acelera violentamente a própria circulação sanguínea, como uma ação extra. Por um curto período de tempo, a pele do yuza fica vermelha e ele passa a operar em um nível muito superior ao normal. Sua Aura aumenta em 1 ponto e ele imediatamente recebe um dado de sincronização. O sangue do yuza arde até o começo de seu próximo turno. No começo de cada turno, o yuza pode optar por manter o sangue ardendo sem usar ações, apenas pagando o custo em nagen. Durante esse período, as falhas do yuza são catastróficas. Quaisquer resultados 2 não utilizados aumentam a tensão, como se o resultado fosse 1. Quando o sangue deixa de arder e a técnica é desativada, o yuza fica ferido.",
+            "efeitoOugi": "Quando seu sangue parar de arder, dispute Vontade contra a Tensão. Se vencer, você não fica ferido.",
+            "efeitoSincronizacao": " Sua Aura aumenta 2 pontos, em vez de 1, durante esse turno.",
+            "custoNagen": 5
+        },
+        {
+            "id": 56,
+            "nome": "Sedução das Chamas",
+            "requisitos": "Disparo Elemental",
+            "descricao": "Os acidentes mais comuns entre yuza com afinidade com o fogo envolvem o uso rudimentar dessa técnica. Alinhando a sincronia das suas auras com uma chama próxima, o yuza pode dobrar sua intensidade ou apagá-las completamente. Influenciar uma chama menor que o yuza requer 2 nagen, uma chama que seja do tamanho do yuza ou um pouco maior requer 4 nagen, e uma chama que seja mais do que duas vezes maior que o yuza requer no mínimo 8 nagen. Se usada para atacar, essa técnica causa dano igual à Vontade do usuário. Essa técnica pode ser usada em um ataque elemental de outro yuza. Caso aumente a intensidade, some sua Aura ao dano causado pelo yuza. Caso tente dissipar um ataque, faça uma defesa total com vantagem, usando seu Instinto contra a jogada de ataque.",
+            "efeitoOugi": "Seu controle é tão preciso que você pode escolher exatamente qual será a temperatura do fogo.",
+            "efeitoSincronizacao": "Some sua aura ao dano causado pelo fogo. Caso esteja aumentando o dano de outra técnica, some sua aura duas vezes no dano dela.",
+            "custoNagen": 2
+        },
+        {
+            "id": 57,
+            "nome": "Sentido Sísmico",
+            "requisitos": "Aura 1, Instinto 3",
+            "descricao": "O yuza se comunica diretamente com a terra, lendo com seu tato as vibrações do solo. Ele consegue perceber qualquer coisa que esteja em contato com o solo com a mesma clareza da visão, desde que esteja próximo a ele. Se conseguir ver ao mesmo tempo que usa o sentido sísmico, o yuza tem vantagem em qualquer jogada que dependa da visão. Após ativado, o sentido sísmico dura por uma cena.",
+            "efeitoOugi": "Você pode ativar a técnica com uma ação extra.",
+            "efeitoSincronizacao": "O alcance do sentido sísmico aumenta para distante.",
+            "custoNagen": 5
+        },
+        {
+            "id": 58,
+            "nome": "Shunpo",
+            "requisitos": "Aura 1, Agilidade 4",
+            "descricao": "A maestria da movimentação em combate, shunpo (“passo instantâneo”) é uma técnica que permite cobrir distâncias rapidamente, se aproximando ou afastando do oponente com facilidade. Com a prática, essa técnica permite se mover mais rápido que a visão consegue acompanhar. Você pode se mover dois passos de distância (de engajado para distante, por exemplo) como uma ação extra.",
+            "efeitoOugi": "Quando um oponente o ataca e erra, você pode usar Shunpo como uma reação para se mover um passo de distância. ",
+            "efeitoSincronizacao": "Assuma a iniciativa.",
+            "custoNagen": 2
+        },
+        {
+            "id": 59,
+            "nome": "Som do Silêncio",
+            "requisitos": "Razão 4, Impacto Trovejante",
+            "descricao": " Essa técnica exige muito controle e concentração. O yuza reverte os princípios do trovão, absorvendo com sua aura todas as vibrações sonoras ao seu redor. Ele pode ficar completamente silencioso, o que concede vantagem em jogadas para passar despercebido. Uma vez ativada, seus efeitos duram até o final da cena ou até o yuza falar. Caso ele fale, o Som do Silêncio é quebrado e todos os efeitos da técnica são interrompidos.",
+            "efeitoOugi": " Você pode expandir sua aura de silêncio, cobrindo uma área maior, grande o bastante para abrigar um carro popular. ",
+            "efeitoSincronizacao": "Você aumenta o alcance da sua aura de silêncio. Se não é o seu ougi, passa a ser grande o bastante para um carro popular. Se for o seu ougi, passa a ser grande o bastante para um pequeno avião – por exemplo, o Komet dos piratas do céu.",
+            "custoNagen": 4
+        },
+        {
+            "id": 60,
+            "nome": "Telecinese",
+            "requisitos": "Disparo Elemental",
+            "descricao": "Não é raro encontrar pessoas que afirmam serem capazes de manipular objetos com a força da mente. Qualquer iniciado em focus sabe que isso é impossível. Quando objetos são de fato movidos ao longe, é o resultado da aplicação da aura para controlar o ar. Quando usa essa técnica como uma ação, o yuza pode manipular os ventos para manipular objetos, como se fosse uma pessoa com Força igual à Vontade do yuza e Agilidade igual ao Instinto do yuza. Ele ainda precisa ver para saber o que está fazendo. Essa técnica pode ser usada para atacar oponentes distantes com Golpes, usando o ar como um aríete. Esse tipo de ataque, porém, não pode ser combinado com nenhuma outra técnica.",
+            "efeitoOugi": "Além de Golpes, você pode usar a técnica para fazer Agarrões e Combos.",
+            "efeitoSincronizacao": "Some sua Aura na Força efetiva da Telecinese.",
+            "custoNagen": 4
+        },
+        {
+            "id": 61,
+            "nome": "Telepatia",
+            "requisitos": "",
+            "descricao": "Comunicação direta entre mentes, independente da linguagem, é possível através do nagen. As frequências das auras são alinhadas e é possível se comunicar com qualquer pessoa visível. O canal de comunicação tem duas vias e a transmissão de informação via telepatia é dez vezes mais rápida que via fala. Uma vez estabelecido, o canal permanece aberto até o final da cena ou até que o telepata interrompa a comunicação.",
+            "efeitoOugi": "Você consegue prever os movimentos do seu alvo. Você ganha vantagem nos ataques contra ele e +2 no Limiar de Defesa contra ataques dele. ",
+            "efeitoSincronizacao": "Você pode ler mentes. Dispute Presença contra Vontade. Com um sucesso, você sabe o que o alvo está pensando no momento.",
+            "custoNagen": 6
+        },
+        {
+            "id": 62,
+            "nome": "Tempo de Tempestade",
+            "requisitos": "Aura 1",
+            "descricao": "O yuza envia seu nagen para a atmosfera ao seu redor, carregando-a com partículas elétricas. Uma aura elétrica o envolve, emitindo um forte cheiro de ozônio. Quando ativado, qualquer oponente engajado com o yuza sofre dano igual à Vontade + Aura (não é preciso fazer uma jogada de ataque). Esse mesmo dano também é causado automaticamente a qualquer um que atinja o yuza com um agarrão, golpe ou combo desarmado. Até o final da cena, o yuza pode descartar um resultado 5+ para atordoar um alvo atingido por um de seus ataques desarmados, causando desvantagem na próxima jogada dele. ",
+            "efeitoOugi": "Uma vez atordoada por essa técnica, a vítima sofre desvantagem em todas as jogadas até o final da cena. Isso conta como atordoamento para usar Relâmpago Inevitável.",
+            "efeitoSincronizacao": "O dano causado pela aura é igual a Vontade + Aura + 2.",
+            "custoNagen": 6
+        },
+        {
+            "id": 63,
+            "nome": "Toque da Escuridão",
+            "requisitos": "",
+            "descricao": "Da mesma forma que a chama ilumina, ela projeta longas sombras. Com essa técnica, o yuza pode apagar a luz de uma lâmpada, tocha ou fonte de luz similar. O dispositivo continua funcionando normalmente, mas não emite mais nenhuma luz. Uma tocha, por exemplo, mostraria o ar distorcido ao redor e emitiria calor, mas não iluminaria. Jogadas que dependam da visão sofrem uma ou duas desvantagens, dependendo de outras fontes de iluminação no local. O efeito dura até o começo do seu próximo turno. Essa técnica não pode ser usada sob a luz direta do sol. Seus efeitos funcionam somente em ambientes fechados ou durante a noite.",
+            "efeitoOugi": "Quando apaga uma luz, você a substitui com uma chama fantasmagórica que somente você pode ver, permitindo que enxergue normalmente. Se você tem Infravisão, ganha vantagem em todas as jogadas que dependam de visão.",
+            "efeitoSincronizacao": "O efeito dura uma cena.",
+            "custoNagen": 4
+        },
+        {
+            "id": 64,
+            "nome": "Toque Tóxico",
+            "requisitos": "",
+            "descricao": "Alterando o próprio metabolismo, o yuza passa a secretar um veneno mortal pelo suor e pela saliva. Além de venenoso, o toque é corrosivo. Muitos ninjas aprendem essa técnica, usando-a para envenenar a bebida de alvos com cuspe e derreter fechaduras com o suor das mãos.O toque pode ser ativado como uma ação extra e dura até o começo do próximo turno do yuza. Qualquer ataque desarmado com Golpes, Agarrões ou Combos causa 1 ponto de dano adicional e força a vítima a disputar Força contra a Vontade do yuza. Em caso de falha, a vítima fica ferida e sofre desvantagem em todas as suas jogadas até o final de seu próximo turno.",
+            "efeitoOugi": "Você tem vantagem na jogada de Vontade para envenenar a vítima.",
+            "efeitoSincronizacao": "Some sua Aura no dano adicional causado.",
+            "custoNagen": 4
+        },
+        {
+            "id": 65,
+            "nome": "Túnel Instantâneo",
+            "requisitos": "Disparo Elemental",
+            "descricao": "Muitos yuzas que dominam essa técnica manifestam uma toupeira como sua aura. O yuza abre o chão à frente como uma ação, criando um túnel que se estende por uma quantidade de metros igual à sua Vontade. Usos subsequentes podem fazer o túnel se estender mais, mas ele desmorona se qualquer outra pessoa entrar no mesmo. Usar essa técnica sem Sentido Sísmico pode ser muito perigoso, atingindo tubulações de água ou gás!",
+            "efeitoOugi": "Você pode usar os túneis para se mover um passo de distância por baixo da terra como uma ação extra.",
+            "efeitoSincronizacao": "O túnel é estável o suficiente para que outras pessoas passem por ele.",
+            "custoNagen": 4
+        },
+        {
+            "id": 66,
+            "nome": "Vala do Inverno",
+            "requisitos": "Aura 1",
+            "descricao": "Sintonizando sua aura com a água, o yuza diminui a temperatura ao seu redor. Flocos de neves e cristais de gelo surgem à sua volta, se movendo de forma harmoniosa enquanto ele dança. O efeito dura até o final da cena. Além de ser visualmente impressionante, qualquer oponente engajado tem os movimentos retardados pelo frio. Isso causa desvantagem em seus ataques contra o yuza e também os força a se mover um passo de distância adicional para se afastar dele. Quando ataca com Golpes, Combos ou Agarrões o yuza pode descartar um resultado 5+ depois de acertar um oponente. Se o fizer, ele fica parcialmente congelado e sofre desvantagem na próxima jogada.",
+            "efeitoOugi": "Para cada dado descartado, aumente o dano em um, além do efeito normal.",
+            "efeitoSincronizacao": "Oponentes engajados sofrem duas desvantagens em jogadas de ataque contra você. Oponentes próximos sofrem uma desvantagem. Um próximo precisa se mover dois passos de distância para se aproximar de você.",
+            "custoNagen": 6
+        },
+        {
+            "id": 67,
+            "nome": "Velocidade Violenta",
+            "requisitos": "Aura 1, Agilidade 5, Instinto 3",
+            "descricao": " Existe um limite para a velocidade do corpo humano. Os yuza se treinam para alcançar esse limite, mas a única forma de ultrapassá-lo reside em abraçar instintos animalescos. Rendendo-se à sede de sangue, o yuza se concentra em um único oponente como sua presa e dispara numa sequência de golpes violentíssimos, abandonando completamente qualquer noção de autopreservação. O yuza escolhe duas outras técnicas (Agarrões, Golpes ou Combos em qualquer combinação). Quando usa essa técnica, ele recebe nagen pelas duas técnicas além do custo por Velocidade Violenta. Como parte da mesma ação, use as duas técnicas contra o mesmo alvo, jogando com vantagem. Depois de usar Velocidade Violenta, o Limiar de Defesa do yuza cai para 0. Além disso, ele tem desvantagem para realizar Defesas Totais.",
+            "efeitoOugi": "Em vez de cair para 0, seu Limiar de Defesa sofre um redutor de -2.",
+            "efeitoSincronizacao": "Aumente em 1 o dano das técnicas usadas junto com Velocidade Violenta.",
+            "custoNagen": 4
+        },
+        {
+            "id": 68,
+            "nome": "Zanshin",
+            "requisitos": "Aura 1, Instinto 3",
+            "descricao": "Um estado de alerta em repouso cultivado pelas artes marciais, Zanshin (“a mente que permanece”) evolui da simples atenção dos arredores para um incremento de percepção através da sensibilidade ao fluxo do nagen. É uma espécie de sexto sentido. A técnica permite que você detecte flutuações nas auras e perceba a presença de seres vivos próximos. Você ganha vantagem em testes de Instinto para reagir com prontidão. Você sabe quando uma pessoa próxima é espiritualmente ativa, qual o valor da Aura dela e sua afinidade. Essa técnica está sempre ativa, mas pode ser potencializada com um dado de sincronização.",
+            "efeitoOugi": "Você sabe esconder a sua própria aura. Com uma ação, pode se concentrar e fazer com que sua aura seja registrada como 0 para o Zanshin de outros yuzas. O efeito dura até você usar focus.",
+            "efeitoSincronizacao": "Some sua Aura no seu Limiar de Defesa. Você ganha vantagem em todos os testes de Instinto. Os efeitos duram até o final do seu próximo turno.",
+            "custoNagen": 0
+        }
+    ]
+}
